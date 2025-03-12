@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "lib.h"
-
+/* Amazing comment*/
 
 void Mcl_PerformStartupCheck()
 {
