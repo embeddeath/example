@@ -2,6 +2,10 @@
 #include "lib.h"
 
 
+void Adc_Init()
+{
+    // Init
+}
 
 void Mcl_Init()
 {
@@ -11,6 +15,8 @@ void Mcl_Init()
 int main ()
 {
     Mcl_Init();
+    Adc_Init();
+    
     printf("Hello World\n");
     return 0; 
 }
